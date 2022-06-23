@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+      obcaecati, consectetur cupiditate nostrum harum ab perspiciatis iure
+      explicabo animi sapiente adipisci alias eos necessitatibus recusandae
+      deserunt tempore eveniet eius impedit libero ratione quibusdam placeat,
+      molestiae at. Quam minus libero dolor nostrum neque a vel aperiam quo,
+      magni earum reprehenderit modi accusamus voluptate delectus, esse velit
+      non, harum culpa voluptatibus deleniti et cupiditate quod quaerat.
+      Sapiente, voluptates eveniet itaque ipsa aspernatur voluptatum quod vel
+      dolore porro rem sunt quasi modi possimus, velit voluptate et corrupti
+      praesentium eos ab? Aspernatur vero sed veritatis. Libero ea, ipsa
+      perferendis debitis suscipit doloribus totam repellendus? Sapiente alias
+      repudiandae nam laborum placeat a velit iure quisquam! Vitae quis beatae
+      exercitationem corporis non illo, sequi sint rem eos itaque quisquam, odit
+      iure aut modi praesentium facere rerum aspernatur ab ipsum molestias
+      animi. Cumque doloribus rem ea officia, quam aspernatur numquam,
+      repudiandae dolores commodi dolorem debitis doloremque quod voluptatum
+      voluptate? Recusandae repellendus molestias obcaecati eaque expedita?
+      Adipisci ducimus repudiandae odio atque nam, excepturi molestias nisi
+      accusamus ipsam unde corrupti illum modi impedit at consequuntur expedita,
+      blanditiis quas, dolore iste eveniet tenetur illo. Exercitationem harum
+      aperiam laboriosam cupiditate laborum ipsum ratione! Quaerat fugit
+      blanditiis laborum rem? Facilis, optio excepturi.
+    </p>
+    <header><h1>Position Sticky</h1></header>
+
+    <h1>The CSS Position Property</h1>
+    <h2>
+      the frist rule of the positon preperty is DONT ABUSE it because it might
+      only works on youbr laptop very rarely we nned to use postion
+    </h2>
+    <h3>All posiibl evalues of postion property are relative</h3>
+
+    <!--STATIC-->
+    <h3>Position: static</h3>
+    <em
+      >Position static is the default for all HTML element, top, bottom, left,
+      right, have no effect.
+    </em>
+
+    <div class="box static">static</div>
+    <!--both .box and .staitic propety-->
+
+    <!--Relative-->
+    <h3>Position: relative</h3>
+    <em>the element is relative to its normal position</em>
+
+    <div class="box relative">relative</div>
+
+    <!--Absolute-->
+    <h3>Position: Absolute</h3>
+    <em>the element is absolute to its explictiy stateds </em>
+    <!--in this case this is at the (0, 0)-->
+
+    <div class="box absolute">absolute</div>
+
+    <!--the combinatio of absolute and relative allow you to position the circle correctly. -->
+    <div class="box relative centered">
+      <div class="circle absolute"></div>
+    </div>
+
+    <!--FIXed This is fixed while you scroll throught it!!!-->
+    <h3>postion: fixed</h3>
+    <em>ths postion postion absolute to your current scroll page</em>
+    <div class="cookie">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      dolorum consectetur voluptatum optio rerum quidem minima, veritatis veniam
+      iste nam.
+    </div>
+
+    <!--   Stickey-->
+    <h3>postion: sticky</h3>
+    <em
+      >the elemnt toggles between relative and fixed, and depeding in the
+      things</em
+    >
+  </body>
+</html>
